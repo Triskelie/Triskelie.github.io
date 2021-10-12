@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+html {
+    background-image: url("/assets/topography/topography.png");   
+}
+
+main {
+    padding: 0% 10%;
+}
+
+body {
+    margin: 0px;
+}
+
+.navTitles {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px 0;
+    text-align: center;
+    height: 16px;
+    float: right;
+    margin-right: 10%;
+}
+
+li {
+    display: inline;
+}
+
+.navBar {
+    background-color: rgb(77, 77, 77);
+    height: 40px;
+}
+
+.navTitles a {
+    color: rgb(248, 72, 189);
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.introducing-class h2 {
+color: rgb(248, 72, 189);
+}
+
+.separator {
+    width: 6px;
+    height: 3px;
+    margin: 5px;
+    background-color: black;
+}
+
+header {
+    position: sticky;
+}
+
+#logo {
+    background-color: rgb(77, 77, 77);
+    float: left;
+    margin-left: 10%;
+    padding: 4px 0;
+}
+
+p {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#wikiTitle {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.title {
+    font-family: 'Andada Pro', serif;
+    font-weight: bolder;
+}
+
+.introducing-class #introducing-block {
+    margin: 0;
+}
