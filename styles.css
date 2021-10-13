@@ -2,16 +2,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 
-html {
-    background-image: url("/assets/topography/topography.png");   
+body {
+    margin: 0px;
+    background-image: url("/assets/topography/topography.png");
 }
 
 main {
     padding: 0% 10%;
+    font-size: 150%;
 }
 
-body {
-    margin: 0px;
+.navBar {
+    background-color: #333333;
+    height: 40px;
+}
+
+#logo {
+    background-color: #333333;
+    float: left;
+    margin-left: 10%;
+    padding: 4px 0;
+}
+
+h1 {
+    margin-top: 80px;
+}
+
+.title {
+    font-family: 'Andada Pro', courier;
+    font-weight: bolder;
 }
 
 .navTitles {
@@ -24,23 +43,23 @@ body {
     margin-right: 10%;
 }
 
+.navTitles a {
+    color: #ff0099;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+p {
+    font-family: 'Anonymous Pro', courier;
+    text-align: left;
+}
+
 li {
     display: inline;
 }
 
-.navBar {
-    background-color: #333333;
-    height: 40px;
-}
-
-.navTitles a {
-    color: #ff0099;
-    font-size: 16px;
-    margin-left: 30px;
-}
-
 .introducing-class h2 {
-color: #ff0099;
+    color: #ff0099;
 }
 
 .separator {
@@ -50,38 +69,17 @@ color: #ff0099;
     background-color: black;
 }
 
-header {
-    position: sticky;
-}
-
-#logo {
-    background-color: #333333;
-    float: left;
-    margin-left: 10%;
-    padding: 4px 0;
-}
-
-p {
-    font-family: 'Anonymous Pro', courier;
-}
-
 .container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 15px;
+    margin: 6px;
 }
 
-#wikiTitle {
+#wikiSection h2 {
     text-align: center;
-    margin-top: 0px;
 }
 
-.title {
-    font-family: 'Andada Pro', courier;
-    font-weight: bolder;
-}
-
-.introducing-class #introducing-block {
-    margin: 0;
+#wikiSection h3 {
+    text-align: left;
 }
